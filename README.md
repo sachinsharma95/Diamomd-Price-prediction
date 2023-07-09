@@ -5,9 +5,7 @@ Diamond Price Prediction
 ├───build
 │   ├───bdist.win-amd64
 │   └───lib
-│       └───src
-│           ├───components
-│           └───pipelines
+│          
 ├───Diamon_Price_Prediction.egg-info
 ├───dist
 ├───logs
@@ -15,7 +13,16 @@ Diamond Price Prediction
 │   └───data
 ├───src
 │   ├───components
+|   |        └───data_ingestion.py
+|   |        └───data_transformation.py
+|   |        └───model_trainer.py
 │   ├───pipelines
-│   └───__pycache__
+|   |      └───__init__.py
+|   |      └───prediction_pipeline.py
+|   |      └───training_pipeline.py
+|   └───logger.py
+|   └───exception.py
+│   └───utils
+|
 
 ```
