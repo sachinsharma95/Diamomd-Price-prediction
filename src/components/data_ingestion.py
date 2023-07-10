@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
 
+
 ## intialize the data ingestion configuration
 
 @dataclass
@@ -52,9 +53,9 @@ class DataIngestion:
             logging.info('Error occured in Data Ingestion config')
 
 
-if __name__ == '__main__':
-    obj = DataIngestion()
-    obj.initiate_data_ingestion()
+# if __name__ == '__main__':
+#     obj = DataIngestion() 
+#     obj.initiate_data_ingestion()
 
     
     
